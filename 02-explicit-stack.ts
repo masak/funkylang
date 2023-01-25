@@ -232,7 +232,7 @@ namespace After {
   }
 }
 
-// We call a term plus its local environment a "clsoed term". This was a change that
+// We call a term plus its local environment a "closed term". This was a change that
 // snuck up on me; I was too focused on the resumption points to notice this one.
 // Basically, we need to always pair up terms-to-be-evaluated (on the stack) with
 // their local environment. This matters because not only do different functions have
